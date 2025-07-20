@@ -1,9 +1,13 @@
 import os
+import json
+import requests
 
 from openai import OpenAI
 from pydantic import BaseModel
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+# client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+client = OpenAI(api_key='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')
+
 
 
 # --------------------------------------------------------------
